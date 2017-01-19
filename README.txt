@@ -8,4 +8,3 @@ I give you details to connect and check the app.
 manager: tavor@gmail.com,password:123456
 employee:avi@gmail.com,password:123456
 
-Hope you enjoy!!
