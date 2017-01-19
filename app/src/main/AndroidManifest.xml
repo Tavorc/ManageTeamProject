@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tavor.todoorg">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.parse.APPLICATION_ID"
+            android:value="HIlDwguJg9Bp3xvchx4QzAZ9tKSrIWXcyECL22mN" />
+        <meta-data
+            android:name="com.parse.CLIENT_KEY"
+            android:value="BP6cogoM1AjIEXbllyU1dSeqha6xgufjwTJqeqSW" />
+
+        <activity
+            android:name=".Login"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignUp" />
+        <activity android:name=".CreateAndInvite" />
+        <activity android:name=".CreateEditTask" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ReportTask" />
+
+        <service android:name=".NotifyService" />
+
+        <activity android:name=".Select"></activity>
+    </application>
+
+</manifest>
