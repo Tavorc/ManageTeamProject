@@ -2,7 +2,7 @@
 This Application is the final project of the course android.
 The app is for team work in organization that the manager is the first that download the app.
 The manager invite his employees to the app and they download this app.
-The manager give task to the employees.
+The manager give task to the employees,and if the employee finish the task he can update the status of the task.
 
 I give you details to connect and check the app.
 manager: tavor@gmail.com,password:123456
